@@ -1,4 +1,8 @@
-/* hello.c */
+/* hello.c 
+ *
+ * gcc hello.c
+ * clang hello.c
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
