@@ -74,7 +74,7 @@ How the results are different with ``gcc hello.c`` or ``clang hello.c``?
 
 I would like to enjoy a rushhour puzzle game written in C (c.f. https://en.wikipedia.org/wiki/Rush_Hour_(puzzle) ).
 
-Download the following source code and data files
+Copy the following source code and game map files to your laptop:
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/rushhour.c
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/map1.txt
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/map2.txt
