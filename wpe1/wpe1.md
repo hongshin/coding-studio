@@ -71,16 +71,25 @@ or
 How the results are different with ``gcc hello.c`` or ``clang hello.c``?
 
 ### Problem 3 ###
+
+I would like to enjoy a rushhour puzzle game written in C (c.f. https://en.wikipedia.org/wiki/Rush_Hour_(puzzle) ).
+
 Download the following source code and data files
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/rushhour.c
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/map1.txt
 * https://github.com/hongshin/coding-studio/blob/main/wpe1/map2.txt
 
-This is the rushhour puzzle game.(like https://en.wikipedia.org/wiki/Rush_Hour_(puzzle) ).
+Compile ``rushhour.c`` by ``gcc rushhour.c`` (or ``clang rushhour.c``), and run ``./a.out``.
 
-Compile ``rushhour.c`` by ``gcc rushhour.c`` (or ``clang rushhour.c``).
-Run ``./a.out map1.txt``, and solve the puzzle.
-Also, ``./a.out map2.txt`` and solve the other puzzle as well.
+Type ``start map1.txt``, and press enter to start a game with ``map1.txt``.
+(of course, you can use ``map2.txt`` as well)
+
+This game is to move car number 1 (marked with '1') to the right-side boarder.
+You can move a car X by commanding ``right X``, ``left X``, ``up X``, and ``down X``.
+Once the car hits the right boarder, you win the game and the program will be terminated.
+Or, you can exit from the game in the middle by commanding ``quit``.
+
+Play with ``map1.txt`` and ``map2.txt``, and solve these puzzles.
 
 
 ### Problem 4. ###
