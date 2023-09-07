@@ -31,7 +31,7 @@ Suppoe that the currency exchange rate from USD to KRW is stored at ``exchange_r
 and the given KRW value at ``KRW``.
 Fill out the missing code at ``/* TODO */`` with arithematic operations and type cast 
 such that it finds the corresponding USD value, rounds the value up, and prints it to the screen.
-For example, when ``exchange_rate`` is ``1335.02`` and ``KRW`` is ``50000``, this program is 
+For example, when ``exchange_rate`` is ``1325.02`` and ``KRW`` is ``50000``, this program is 
 expected to print out ``38``.
 
 ```C
