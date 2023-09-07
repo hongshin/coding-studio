@@ -83,7 +83,7 @@ For ``minutes`` is ``3140``, the expected output is as follows:
 
 ### Problem 4 ###
 
-Complete the missing code at ``/* TODO */`` in ``rational.c`` that shows the result of ``a``/``/b`` + ``c``/``d`` as a fraction number. The resulting fraction number may not be reduced.
+Complete the missing code at ``/* TODO */`` in ``rational.c`` that shows the result of ``a``/``b`` + ``c``/``d`` as a fraction number. The resulting fraction number may not be reduced.
 
 
 ```C
