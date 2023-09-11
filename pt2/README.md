@@ -80,7 +80,7 @@ Complete the following missing functions in ``eight_numbers.c``:
 * ``min``: the least value among the given eight ``double`` values.
 * ``max``: the greatest value among the given eight ``double`` values.
 
-Use ``fmin``, ``fmax``, ``power`` and ``sqrt`` in the math library.
+Use ``fmin``, ``fmax``, ``pow`` and ``sqrt`` in the math library.
 Note that you must add the ``-lm`` option at compliation (e.g., ``gcc notation.c -lm``).
 
 ```C
