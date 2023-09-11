@@ -14,7 +14,7 @@ Submit each programming result (source code files) to https://forms.gle/UKrgzeSp
 Find the details of the math library functions at https://www.programiz.com/c-programming/library-function/math.h .
 
 ### Problem 1
-In ``triangle.c``, function ``perimeter`` receives the three coordinates of a point and returns the sum of the three sides of three triangle.
+In ``triangle.c``, function ``perimeter`` receives the three coordinates of a point and returns the sum of the three sides of the triangle.
 Complete the budy of ``perimeter`` while assuming that each number is in range of 0 and 1000 and no two coordinates are the same.
 
 Use function ``sqrt`` of the math library. Note that you must add the ``-lm`` option at compliation (e.g., ``gcc triangle.c -lm``).
