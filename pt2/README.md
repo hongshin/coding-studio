@@ -46,7 +46,7 @@ int main ()
 The scientific notation of a real number is to show the real number in a form of *a* x 10^*b* where *a* is a real number between 0.0 and 10.0 and *b* is the power of 10 for the number.
 In ``notation.c``, function ``print_in_scino`` receives a non-zero positive ``double`` value, and prints it in the scientific notation.
 
-Complete ``print_in_scino`` using the math library functions ``power`` and ``log10``.
+Complete ``print_in_scino`` using the math library functions ``powr`` and ``log10``.
 Note that you must add the ``-lm`` option at compliation (e.g., ``gcc notation.c -lm``).
 
 ```C
