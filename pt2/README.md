@@ -65,7 +65,7 @@ void print_scino(double v)
 int main () 
 {
 	print_scino(7587.2) ; // 7.5872 x 10^3
-	print_scino(56.88) ; // 5.688 x 10^2
+	print_scino(56.88) ; // 5.688 x 10^1
 
 	return EXIT_SUCCESS ;
 }
