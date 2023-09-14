@@ -84,9 +84,9 @@ int num_days (int month, int day)
 
 int main () 
 {
-	printf("%d\n", num_day(12, 25)) ;
-	printf("%d\n", num_day(9, 14)) ;
-	printf("%d\n", num_day(5, 5)) ;
+	printf("%d\n", num_days(12, 25)) ;
+	printf("%d\n", num_days(9, 14)) ;
+	printf("%d\n", num_days(5, 5)) ;
 
 	return EXIT_SUCCESS ;
 }
