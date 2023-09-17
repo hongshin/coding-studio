@@ -150,11 +150,13 @@ int main ()
 
 ### Problem 6
 
-Complete the following program with a recursive function ``print_star`` such that for given a positive integer ``N``, the program prints out ``N`` lines where *i*-th line prints ``x`` for *i* times.
+Complete the following program with a recursive function ``print_star`` such that for given a positive integer ``N``, the program prints out ``N`` lines where *i*-th line prints ``x`` for *i* times. You can add new functions.
 
 ```C
 #include <stdio.h>
 #include <stdlib.h>
+
+/* FIXME */
 
 void print_stars ()
 {
