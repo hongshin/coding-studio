@@ -81,7 +81,7 @@ For your information, the positions in checkboards are named as follows:
 
 ### Problem 3
 
-Write a recursive functions ``factorial`` and a function ``combinatorial`` in ``combinatorial.c`` such that the program computes the *C* (*n*, *r*) = *n* ! / (*r*! x (*n - r*!) for given ``n`` and ``r``. Note that you are not allowed to iteration (e.g., for-statement, while-statement).
+Write a recursive functions ``factorial`` and a function ``combinatorial`` in ``combinatorial.c`` such that the program computes the *C* (*n*, *r*) = *n* ! / (*r*! x (*n - r*)!) for given ``n`` and ``r``. Note that you are not allowed to iteration (e.g., for-statement, while-statement).
 
 ```C
 /* combinatorial.c */
@@ -112,11 +112,11 @@ int main ()
 
 Complete ``checkboard.c`` that prints out *N*-by-*N* checkboard where 'O' and 'X' are alternating. For example of *N* being 5, the program prints out the following:
 ```
-OXOXOX
-XOXOXO
-OXOXOX
-XOXOXO
-OXOXOX
+OXOXO
+XOXOX
+OXOXO
+XOXOX
+OXOXO
 ```
 
 You are asked to complete ``draw_checkboard`` and also you are allowed to new functions on your owns. Note that you must write recursive functions, and must not use iteration (e.g., for-statement). 
@@ -129,7 +129,7 @@ You are asked to complete ``draw_checkboard`` and also you are allowed to new fu
 
 /* FIXME: you can add new functions */
 
-void check (char col1, char row1, char col2, char row2)
+void draw_checkboard (int n)
 {
 	/* FIXME */
 }
@@ -137,11 +137,10 @@ void check (char col1, char row1, char col2, char row2)
 
 int main () 
 {
-	char col1, row1, col2, row2 ;
+	int n ;
+	scanf("%d", &n) ;
 
-	scanf("%c%c %c%c", &col1, &row1, &col2, &row2) ;
-
-	check(col1, row1, col2, row2) ;
+	draw_checkboard(n) ;
 
 	return EXIT_SUCCESS ;
 }
