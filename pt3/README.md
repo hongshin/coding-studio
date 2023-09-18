@@ -77,6 +77,8 @@ int main ()
 For example, when a user gives ``c7f4``, the program must print out ``captured``. When ``d6c4``, the program must print out ``safe``.
 
 For your information, the positions in checkboards are named as follows:
+
+
 ![image](https://www.thechesswebsite.com/wp-content/uploads/2013/05/larsens-opening.jpg)
 
 ### Problem 3
@@ -103,6 +105,8 @@ int main ()
 	int n, r ;
 
 	scanf("%d %d", &n, &r) ;
+
+	printf("%d\n", combinatorial(n, r)) ;
 
 	return EXIT_SUCCESS ;
 }
