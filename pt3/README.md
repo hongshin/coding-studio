@@ -37,7 +37,7 @@ int main ()
 {
 	double a, b, c ;
 
-	scanf("%f %f %f", &a, &b, &c) ;
+	scanf("%lf %lf %lf", &a, &b, &c) ;
 
 	solve_quadratic_formula(a, b, c) ;
 
