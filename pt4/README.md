@@ -9,7 +9,7 @@
 ### Instruction
 
 Solve the given three problems following the guidelines in the problem descriptions. 
-Submit each programming result (source code files) to .
+Submit each programming result (source code files) to https://forms.gle/NW56qXanmwTqGKg9A .
 
 ### Problem 1
 
