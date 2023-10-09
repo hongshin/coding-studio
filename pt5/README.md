@@ -3,7 +3,7 @@
 ### Instruction
 
 To declare your attendance, submit the result (okay if it is intermittent) of each of the following two problems 
-via Google Form https://forms.gle/L2GHroHxq8xDdxGb9 by 5:30 PM.
+via Google Form https://forms.gle/L2GHroHxq8xDdxGb9 by 11:59 PM, 9 Oct.
 
 ### Problem 1
 
