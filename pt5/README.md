@@ -32,7 +32,7 @@ if exists, the overlapped part with ``#``.
 Note that, on the screen, each coordinate must be marked with two characters, since the height of a character
 is twice as its width in the console screen.
 
-For example, if the user inputs ``3 4 5 5 6 5 3 4``, the following must be shown on the screen:
+For example, if the user inputs ``3 4 5 4 6 5 3 4``, the following must be shown on the screen:
 
 ```
 
