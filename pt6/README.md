@@ -8,7 +8,7 @@ Note that you are not allowed to use array for solving the following problems.
 
 ### Instruction
 
-Submit your programming results to https://forms.gle/iAHd7TA8fYTsdSb27 by 5:30 PM, 16 Oct 2023.
+Submit your programming results to https://forms.gle/iAHd7TA8fYTsdSb27 by 5:45 PM, 16 Oct 2023.
 
 
 
