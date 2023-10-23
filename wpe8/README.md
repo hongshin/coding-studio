@@ -15,7 +15,7 @@ Write a program ``freq.c`` that receives 20 integers from the user, and then pri
 
 ### Problem 3 ###
 
-Complete the ``int is_substr (char s1[], char s2[])`` function in ``substr.c``, which determines whether ``s2`` is a substring of ``s2`` (i.e., ``s1`` is a part of ``s2``).
+Complete the ``int is_substr (char s1[], char s2[])`` function in ``substr.c``, which determines whether ``s2`` is a substring of ``s1`` (i.e., ``s2`` is a part of ``s1``).
 
 Note that you are not allowed to use any string library function.
 
@@ -52,7 +52,7 @@ subsequence
 
 ### Problem 4 ###
 
-Add a function ``shrink_str`` to ``shring.c`` that receives a string and updates the string by removing all whitespaces ``' '``.
+Add a function ``shrink_str`` to ``shrink.c`` that receives a string and updates the string by removing all whitespaces ``' '``.
 
 ```C
 #include <stdio.h>
@@ -62,11 +62,11 @@ Add a function ``shrink_str`` to ``shring.c`` that receives a string and updates
 
 int main ()
 {
-	char s[10] = "Hello, world ! !" ;
+	char s[20] = "Hello, world ! !" ;
 
 	shrink_str(s) ;
 
-	printf("%s", s) ; //it will print out "Hello,world! !".
+	printf("%s", s) ; //it will print out "Hello,world!!".
 
 	return EXIT_SUCCESS ;
 }
