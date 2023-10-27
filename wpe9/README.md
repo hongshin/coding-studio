@@ -28,7 +28,7 @@ For example, the user may give the following as input:
 Then, the program must produce the following:
 
 ```
-0 0 1 1 * 1 0 0 0 0
+0 0 1 2 * 1 0 0 0 0
 0 0 1 * 3 2 1 0 0 0
 0 0 1 1 2 * 1 0 0 0
 0 0 0 0 1 1 1 0 0 0
@@ -120,7 +120,7 @@ int main ()
 
 The expected output is as follows:
 ```
-14 82 728 
+14 728 
 ```
 
 ### Problem 5
