@@ -95,7 +95,7 @@ while seperating two adjacent numbers by comma ``,``.
 
 Complete function ``fill_arr`` in ``arr.c`` that updates array ``arr`` with the content of
 the given string ``s`` and returns the number of elements if the given string ``s`` is valid. 
-If ``str`` is invalid, ``arr`` must not be updated, and the function returns 0.
+If ``s`` is invalid, ``arr`` must not be updated, and the function returns 0.
 Here we assume that the size of ``arr`` is always greater than or equal to the number of
 given elements.
 
@@ -105,7 +105,7 @@ given elements.
 #include <stdlib.h>
 #include <string.h>
 
-int fill_array (int arr[], char s[]) 
+int fill_arr (int arr[], char s[]) 
 {
 	/*FIXME*/
 }
