@@ -8,7 +8,7 @@ Submit your results to https://forms.gle/17C9i7bKdKvfqNfM8 by 6:00 PM today.
 ### Problem 1 
 
 A valid email address consists of a prefix (left to @) and a domain (right to @).
-A prefix must consists of alphabet letters, digits, underscores, periods and dashes.
+A prefix consists of alphabet letters, digits, underscores, periods or dashes.
 When an underscore, period or dash appears, it must be followed by a letter or number.
 
 A domain must consist of letters, digits and dashes. The domain must contain at least
