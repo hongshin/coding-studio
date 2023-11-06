@@ -35,7 +35,7 @@ of the given a 16-by-16 integer array such that only a boundary cell is marked a
 #include <stdio.h>
 #include <stdlib.h>
 
-void draw_boundaries (int a[][20]) 
+void draw_boundaries (int a[][16]) 
 {
 	/*FIXME*/
 }
