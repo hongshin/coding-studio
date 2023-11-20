@@ -9,7 +9,7 @@ typedef
 	}
 	word_t ;
 
-word_t words[29] = { 
+word_t words[27] = { 
 	{"one", 1}, 
 	{"two", 2},
 	{"three", 3},
@@ -37,15 +37,60 @@ word_t words[29] = {
 	{"seventy", 70},
 	{"eighty", 80},
 	{"ninety", 90}
-}
-	;
+} ;
+
 
 
 /*FIXME*/
 
+int str_len (char s[])
+{
+	int len = 0 ;
+	while (s[len] != '\0') {
+		len++ ;
+	}
+	return len ;
+https://forms.gle/toeAsMkekwL75WyK9}
+
+
+int match (char l[], int i, char w[])
+{
+	int len = str_len(w) ;
+	int j ;
+
+	for (j = 0 ; j < len ; j++) {
+		if (l[i + j] != w[j]) 
+			break ;
+	}
+	if (j == len) {
+		return 1 ;
+	}
+	return 0 ;
+}
+
+
 int main ()
 {
-	/*FIXME*/
+	char line[1024] = "There are four apples and two oranges" ;
+	int line_len = str_len(line) ;
 
+	//printf("%d %d\n", match(line, 10, words[3].word), match(line, 10, words[2].word)) ;
+
+	
+	int i, j ;
+	for (i = 0 ; i < line_len ; i++) {
+	
+		for (j = 0 ; j < 27 ; j++) {
+			if (match(line, i, words[j].word)) {
+				printf("%d", words[j].value) ;
+				i = i + str_len(words[j].word) - 1 ;
+				break ;
+			}
+		}
+		if (j == 27) {
+			printf("%c", line[i]) ;		
+		}
+	}
+	
 	return EXIT_SUCCESS ;
 }
