@@ -38,7 +38,7 @@ Write a program ``linelimit.c`` that reads a text file ``input.txt``
 and prints the contents to the screen while limiting the maximum character
 in a line as 80.
 
-For example, suppose that ``input.txt contains the following:
+For example, suppose that ``input.txt`` contains the following:
 ```
 Handong Global University is a four-year, Christian university located in Pohang, South Korea. 
 With students and faculty from more than 50 countries worldwide, Handong Global University provides an optimal global community to experience cultural diversity and develop global competence.
@@ -69,8 +69,9 @@ A player cannot see the battleships, but can see the numbers given to
 each row and column, that indicates the number of cells where battleships
 are placed.
 
-Write a program that receives the locations of the battleships from ``ships.txt``, 
-and then displays the 8x8 board with the battleships and the row and column numbers.
+Write a program that receives the locations of the battleships on a 8x8 gameboard 
+by reading ``ships.txt``, 
+and then displays the gameboard with the battleships and the row and column numbers.
 
 The first line of ``ships.txt`` has a positive integer ``N`` that indicates the number of
 battleships, for 1 <= ``N`` <= 10.
