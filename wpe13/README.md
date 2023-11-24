@@ -63,11 +63,13 @@ this case for the beginning of the fourth line.
 
 Battleship is a puzzle for finding the locations of hidden battleships 
 on a grid board (see https://en.wikipedia.org/wiki/Battleship_(puzzle) ).
-On the board, a hidden battleship spans one or multiple cells vertically or horizontally.
-No two boards are overlapping or consecutively aligned.
+On the board, a hidden battleship spans one or multiple cells aligned vertically or horizontally.
+And, no two battleships are overlapping.
+
 A player cannot see the battleships, but can see the numbers given to 
-each row and column, that indicates the number of cells where battleships
-are placed.
+each row and column, that indicates the number of cells in the row (or column) 
+where battleships are on. Given these numbers, a player is to find out 
+all locations of hidden battleships.
 
 Write a program that receives the locations of the battleships on a 8x8 gameboard 
 by reading ``ships.txt``, 
